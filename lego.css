@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+.container{
+    background-color: white;
+    text-align: left;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+
+    
+    
+}
+table, th, td{
+    border:solid;
+}

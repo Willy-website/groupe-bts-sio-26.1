@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Webstore</title>
+    <link rel="stylesheet" href="lego.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LEGO Webstore</h1>
+    <ul>
+    <hr>
+    <li><a href="legoaccueil.html">Accueil</a></li>
+    <li><a href="LEGOachat.html">Acheter</a></li>
+    </ul>
+    <hr>
+    <h2>Acheter des LEGO</h2>
+    <p>Remplissez le formulaire ci-dessous pour commander des LEGO !</p>
+    <h3>Informations personnelles</h3>
+    <p>Civilité :</p>
+    <form action="Civilité">
+        <input type="radio">Mr
+        <input type="radio">Mme
+    </form>
+    <p>Nom :</p>
+    <form action="Nom">
+        <input type="text" placeholder="votre nom...">
+
+    </form>
+    <p>Prénom :</p>
+    <input type="text" placeholder="votre prénom...">
+
+<p>Email :</p>
+<input type="email" placeholder="votre email...">
+
+<h3>Informations de livraison</h3>
+<p>quantité commandée</p>
+<select name="Nbr set">
+    <option value="1">1 boite</option>
+    <option value="2">2 boites</option>
+    <option value="3">3 boites</option>
+    <option value="4">4 boites</option>
+    <option value="5">5 boites</option>
+</select>
+<p>Adresse de livraison</p>
+<textarea name="Votre adresse" id=""></textarea>
+<h2>Confirmation</h2>
+<input type="checkbox" name="conditions">j'ai relu ma commande et certifie que ces informations sont correctes
+<br>
+<br>
+<input type="submit"value="Confirmer ma commande">
+
+
+
+<hr>
+<footer>
+    <a href="LEGOachat.html">Retour en haut de page</a>
+<p>Tp1: Découverte de HTML et CSS</p>
+<p>L2 Développement Web - 2018</p>
+</footer>
+
+
+</body>
+</html>
